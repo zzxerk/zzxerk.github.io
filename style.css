@@ -12,6 +12,28 @@ body {
     width: 100%;
 }
 
+.top__bottom {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    left: 0;
+    z-index: -99;
+}
+
+.top__bg {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.bottom__bg {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
 .container {
     max-width: 378px;
     margin: 0 auto;
@@ -40,4 +62,55 @@ body {
     font-size: 16px;
     font-weight: 500;
     color: #eee;
+}
+
+
+.farm {
+    margin-top: 20px;
+}
+
+.farm__inner {
+    display: flex;
+}
+
+.counter__box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #252525;
+    background-color: #0A0A0A;
+    background-image: url(assets/bgcouner.png);
+    border-radius: 20px;
+    width: 350px;
+    height: 430px;
+}
+
+.counter {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 180px;
+    font-weight: 900;
+    font-size: 48px;
+    color: #42E800;
+}
+
+.balance__box {
+    position: absolute;
+    top: 386px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.balance__title {
+    font-weight: 600;
+    color: #eee;
+    font-size: 16px;
+}
+
+.user__balance {
+    font-weight: 800;
+    color: #fff;
+    font-size: 16px;
 }
