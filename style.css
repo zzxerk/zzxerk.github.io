@@ -12,28 +12,6 @@ body {
     width: 100%;
 }
 
-.top__bottom {
-    position: absolute;
-    height: 100vh;
-    width: 100%;
-    left: 0;
-    z-index: -99;
-}
-
-.top__bg {
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
-}
-
-.bottom__bg {
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-}
-
 .container {
     max-width: 378px;
     margin: 0 auto;
