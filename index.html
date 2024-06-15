@@ -5,32 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>WhaleBot</title>
+    <title>ASU</title>
 </head>
 <body>
-    
-    <div class="header">
+    <header class="header">
         <div class="container">
             <div class="header__inner">
-                <p class="logo">WhaleCoin</p>
-                <p class="user__id">...</p>
-            </div>
-        </div>
-    </div>
-    <div class="farm">
-        <div class="container">
-            <div class="farm__inner">
-                <div class="counter__box">
-                    <p class="counter">10.000</p>
-                    <div class="balance__box">
-                        <p class="balance__title">Balance:</p>
-                        <p class="user__balance">10.000</p>
+                <a href="index.html" class="link__logo">ASU</a>
+                <nav class="header__nav">
+                    <a href="brands.html" class="brands__link">Brands</a>
+                    <div class="nav__border"> </div>
+                    <button class="nav__menu">
+                        <img class="menu__img" src="menu.svg" alt="#">
+                    </button>
+                </nav>
+                <div class="drop__menu">
+                    <div class="drop__menu__inner">
+                        <p class="love__you">ЛЮБЛЮ ТЕБЯ</p>
+                        <img class="img__love" src="loveyou.png" alt="#">
                     </div>
                 </div>
             </div>
         </div>
+    </header>
+    <div class="header__second">
+        <div class="container">
+            <p class="header__second__title">Catalog</p>
+        </div>
     </div>
+    <main class="catalog">
+        <div class="container">
+            <div class="catalog__inner">
+                <div class="catalog__head">
+                    <div class="catalog__head__decor"> </div>
+                    <div class="catalog__head__decor"> </div>
+                </div>
+                <div class="catalog__body">
+                    <article class="catalog__item">
+                        <img class="item__img" src="assets/nike/n1.png" alt="#">
+                        <a href="#" class="item__link">Nike Dunk Low Retro PRM "Graffiti"</a>
+                        <p class="item__price">11 900 ₽</p>
+                    </article>
+                    <article class="catalog__item">
+                        <img class="item__img" src="assets/convers/c1.png" alt="#">
+                        <a href="#" class="item__link">Converse Chuck Taylor All Star Core</a>
+                        <p class="item__price">8 900 ₽</p>
+                    </article>
+                    <article class="catalog__item">
+                        <img class="item__img" src="assets/nike/n2.png" alt="#">
+                        <a href="#" class="item__link">Nike Dunk Low Retro "Black"</a>
+                        <p class="item__price">17 900 ₽</p>
+                    </article>
+                    <article class="catalog__item">
+                        <img class="item__img" src="assets/jordan/j1.png" alt="#">
+                        <a href="#" class="item__link">Air Jordan 5 Retro "Green Bean"</a>
+                        <p class="item__price">16 900 ₽</p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="main.js"></script>
 </body>
 </html>
