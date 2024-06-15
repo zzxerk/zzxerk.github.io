@@ -2,6 +2,10 @@ let tg = window.Telegram.WebApp;
 
 tg.expand();
 
-let userLogin = document.querySelector(".main__text");
+let userCard = document.querySelector(".user__card");
 
-userLogin.innerText = `${tg.initDataUnsafe.first_name}`;
+let userName = document.createElement("p");
+
+userName.innerText = `${tg.initDataUnsafe.first_name}`;
+
+userCard.appendChild(userName)
