@@ -8,7 +8,7 @@ out.insertAdjacentHTML("beforeend",
     `
     <p class="user__name">${tg.initDataUnsafe.user.first_name}</p>
     `
-)
+);
 
 // let userName = document.querySelector(".user__name");
 
