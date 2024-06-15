@@ -4,11 +4,9 @@ tg.expand();
 
 
 let out = document.querySelector(".out");
-out.insertAdjacentHTML('beforeend', 
+out.insertAdjacentHTML("beforeend", 
     `
-    
-    <p class="user__name">${tg.initDataUnsafe.user.first_name}</p>
-        
+    <p class="user__name">${tg.initDataUnsafe.user.username}</p>
     `
 )
 
