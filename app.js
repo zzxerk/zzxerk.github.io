@@ -7,7 +7,7 @@ let out = document.querySelector(".out");
 out.insertAdjacentHTML("beforeend", 
     `
     
-    <p class="user__name">${tg.initDataUnsafe.user.username}</p>
+    <p class="user__name">${tg.initDataUnsafe.user.first_name}</p>
         
     `
 )
