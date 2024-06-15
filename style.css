@@ -49,3 +49,29 @@ body {
     max-height: 200px;
     border-radius: 50%;
 }
+
+.count__inner {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.count {
+    font-size: 28px;
+    font-weight: 800;
+    color: yellowgreen;
+}
+
+.btn {
+    background-color: yellowgreen;
+    border: none;
+    display: block;
+    width: 10px;
+    height: 10px;
+    padding: 60px;
+    border-radius: 50%;
+    outline: none;
+    border: 8px solid #3992455b;
+}
