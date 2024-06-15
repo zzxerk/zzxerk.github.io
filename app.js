@@ -2,6 +2,7 @@ let tg = window.Telegram.WebApp;
 
 tg.expand();
 tg.EnableClosingConfirmation();
+tg.platform;
 
 let out = document.querySelector(".out");
 out.insertAdjacentHTML("beforeend", 
