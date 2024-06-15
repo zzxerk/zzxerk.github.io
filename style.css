@@ -22,7 +22,8 @@ body {
     padding: 0 10px;
 }
 
-.main__text {
+.user__name {
     text-align: center;
-    
+    color: yellowgreen;
+    font-size: 800;
 }
