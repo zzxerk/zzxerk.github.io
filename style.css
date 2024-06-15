@@ -25,7 +25,7 @@ body {
 .user__out {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
     align-items: center;
     flex-wrap: wrap;
 }
