@@ -8,4 +8,4 @@ let userName = document.createElement("p");
 
 userName.innerText = `${tg.initDataUnsafe.user.first_name}`;
 
-userCard.appendChild(userName)
+userCard.appendChild(userName);
