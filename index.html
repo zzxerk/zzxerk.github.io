@@ -1,72 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>ASU</title>
-</head>
-<body>
-    <header class="header">
-        <div class="container">
-            <div class="header__inner">
-                <a href="index.html" class="link__logo">ASU</a>
-                <nav class="header__nav">
-                    <a href="brands.html" class="brands__link">Brands</a>
-                    <div class="nav__border"> </div>
-                    <button class="nav__menu">
-                        <img class="menu__img" src="menu.svg" alt="#">
-                    </button>
-                </nav>
-                <div class="drop__menu">
-                    <div class="drop__menu__inner">
-                        <p class="love__you">ЛЮБЛЮ ТЕБЯ</p>
-                        <img class="img__love" src="loveyou.png" alt="#">
-                    </div>
-                </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Остров Ролл</title>
+  </head>
+  <body>
+    <section class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a href="index.html" class="logopc__link"
+            ><img
+              class="logo__pc"
+              src="assets/img/logo2.svg"
+              alt="Остров Ролл"
+            />
+          </a>
+          <div class="menu">
+            <a href="#" class="menu__link">Роллы</a>
+            <a href="#" class="menu__link">Вок</a>
+            <a href="#" class="menu__link">Напитки</a>
+          </div>
+          <div class="nav">
+            <p class="user__city">Казань</p>
+            <a href="#" class="cart__link"
+              ><img class="cart__img" src="assets/img/cart.png" alt="корзина"
+            /></a>
+            <button class="nav__link">
+              <img src="assets/img/menu.svg" alt="меню" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="eat__menu">
+      <div class="container">
+        <div class="eat__menu__inner">
+          <a href="#rolls" class="menu__item">Роллы</a>
+          <a href="#voks" class="menu__item">Вок</a>
+          <a href="#" class="menu__item">Салаты</a>
+          <a href="#" class="menu__item">Напитки</a>
+        </div>
+      </div>
+    </section>
+    <section id="rolls" class="rolls">
+      <div class="container">
+        <div class="rolls__inner">
+          <h2 class="rolls__title">Роллы</h2>
+          <div id="rollsBox" class="rolls__boxs">
+            <!-- <div class="eat__box">
+              <img class="box__eat__img" src="assets/img/1.svg" alt="1" />
+              <h3 class="box__title">Ролл Горячая Филадельфия</h3>
+              <div class="box__info">
+                <p class="box__text">8шт / 256 г</p>
+                <p class="box__price">256 р</p>
+              </div>
+              <button class="btn__test">push</button>
+              <a href="#" class="box__link"></a>
+            </div> -->
+            <!-- <div class="eat__box">
+              <img class="box__eat__img" src="assets/img/1.svg" alt="1" />
+              <h3 class="box__title">Ролл Горячая Филадельфия</h3>
+              <div class="box__info">
+                <p class="box__text">8шт / 256 г</p>
+                <p class="box__price">256 р</p>
+              </div>
+              <button class="btn__test">push</button>
+              <a href="#" class="box__link"></a>
+            </div> -->
+            <!-- <div class="eat__box">
+              <img class="box__eat__img" src="assets/img/1.svg" alt="1" />
+              <h3 class="box__title">Ролл Горячая Филадельфия</h3>
+              <div class="box__info">
+                <p class="box__text">8шт / 256 г</p>
+                <p class="box__price">256 р</p>
+              </div>
+              <a href="#" class="box__link"></a>
             </div>
+            <div class="eat__box">
+              <img class="box__eat__img" src="assets/img/1.svg" alt="1" />
+              <h3 class="box__title">Ролл Горячая Филадельфия</h3>
+              <div class="box__info">
+                <p class="box__text">8шт / 256 г</p>
+                <p class="box__price">256 р</p>
+              </div>
+              <a href="#" class="box__link"></a>
+            </div> -->
+          </div>
         </div>
-    </header>
-    <div class="header__second">
-        <div class="container">
-            <p class="header__second__title">Catalog</p>
+      </div>
+    </section>
+    <section id="voks" class="rolls">
+      <div class="container">
+        <div class="rolls__inner">
+          <h2 class="rolls__title">Вок</h2>
+          <div id="voksBox" class="rolls__boxs">
+          </div>
         </div>
+      </div>
+    </section>
+    <div id="modalByu" class="modal__buy">
+      <h2>hello</h2>
+      <button id="modalClose" class="modal__close">
+        <img src="assets/img/close.svg" alt="close" title="close" />
+      </button>
+      <div class="modal__buy__box"></div>
     </div>
-    <main class="catalog">
-        <div class="container">
-            <div class="catalog__inner">
-                <div class="catalog__head">
-                    <div class="catalog__head__decor"> </div>
-                    <div class="catalog__head__decor"> </div>
-                </div>
-                <div class="catalog__body">
-                    <article class="catalog__item">
-                        <img class="item__img" src="assets/nike/n1.png" alt="#">
-                        <a href="#" class="item__link">Nike Dunk Low Retro PRM "Graffiti"</a>
-                        <p class="item__price">11 900 ₽</p>
-                    </article>
-                    <article class="catalog__item">
-                        <img class="item__img" src="assets/convers/c1.png" alt="#">
-                        <a href="#" class="item__link">Converse Chuck Taylor All Star Core</a>
-                        <p class="item__price">8 900 ₽</p>
-                    </article>
-                    <article class="catalog__item">
-                        <img class="item__img" src="assets/nike/n2.png" alt="#">
-                        <a href="#" class="item__link">Nike Dunk Low Retro "Black"</a>
-                        <p class="item__price">17 900 ₽</p>
-                    </article>
-                    <article class="catalog__item">
-                        <img class="item__img" src="assets/jordan/j1.png" alt="#">
-                        <a href="#" class="item__link">Air Jordan 5 Retro "Green Bean"</a>
-                        <p class="item__price">16 900 ₽</p>
-                    </article>
-                </div>
-            </div>
+    <div id="modal" class="modal">
+      <div id="modalBox" class="modal__box">
+        <div class="modal__head">
+          <img src="assets/img/logo2.svg" alt="Остров Ролл" />
+          <p class="modal__user__city">Казань</p>
         </div>
-    </main>
-    <script src="main.js"></script>
-</body>
+        <div class="modal__menu">
+          <a href="#" class="modal__menu__link">Роллы</a>
+          <a href="#" class="modal__menu__link">Вок</a>
+          <a href="#" class="modal__menu__link">Напитки</a>
+        </div>
+      </div>
+      <button id="modalClose" class="modal__close">
+        <img src="assets/img/close.svg" alt="close" title="close" />
+      </button>
+    </div>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
