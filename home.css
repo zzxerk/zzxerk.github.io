@@ -1,0 +1,502 @@
+@import url("https://fonts.googleapis.com/css2? family= Press+Start+2P & display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Press Start 2P";
+  height: 100%;
+}
+
+::selection {
+  background-color: black;
+  color: #ffffff;
+}
+
+.header-menu {
+  width: auto;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+}
+
+.div-menu {
+  width: 800px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.div-menu a {
+  color: black;
+}
+
+.logo {
+  font-size: 36px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  text-align: right;
+}
+
+.news {
+  width: auto;
+  height: 99px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border-top: 1px solid #a0a0a0;
+}
+
+.div-news {
+  width: 390px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-news a {
+  color: #a0a0a0;
+  font-size: 30px;
+}
+
+.div-models {
+  width: auto;
+  height: 529px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border-top: 1px solid #a0a0a0;
+}
+
+.models {
+  width: 790px;
+  height: 460px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cont {
+  width: auto;
+  height: 859px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: #ffffff;
+  border-top: 1px solid #a0a0a0;
+}
+
+.c-a {
+  width: 800px;
+  height: 30px;
+  font-size: 30px;
+  color: #a0a0a0;
+  text-align: center;
+}
+
+.brands {
+  width: 800px;
+  height: 524px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.div-b {
+  width: 800px;
+  height: 32px;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.div-b a {
+  color: black;
+}
+
+.fotter {
+  width: auto;
+  height: 259px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: #ffffff;
+  border-top: 1px solid #a0a0a0;
+}
+
+.fotter a {
+  color: #a0a0a0;
+  font-size: 30px;
+}
+
+.seti {
+  width: 240px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cont-shop {
+  width: auto;
+  height: 1390px;
+  background: #ffffff;
+  border-top: 1px solid #a0a0a0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.c-d-s {
+  width: 800px;
+  height: 1210px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.cont-line {
+  width: 800px;
+  height: 390px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.item {
+  width: 390px;
+  height: 390px;
+  background: #ffffff;
+  border: 1px solid #a0a0a0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.name {
+  width: 340px;
+  height: 120px;
+  color: black;
+  font-size: 20px;
+}
+
+.price {
+  width: 340px;
+  height: 20px;
+  font-size: 20px;
+  text-align: right;
+}
+
+.wrapper {
+  width: auto;
+  height: 1390px;
+  background: #ffffff;
+  border-top: 1px solid #a0a0a0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.slider-prev {
+  font-size: 48px;
+  font-family: "Press Start 2P";
+  color: #a0a0a0;
+  border-color: white;
+  border: none;
+  background-color: #ffffff;
+}
+
+.slider-next {
+  font-size: 48px;
+  font-family: "Press Start 2P";
+  color: #a0a0a0;
+  border: none;
+  background-color: #ffffff;
+}
+
+.slider {
+  width: 600px;
+  height: 600px;
+  overflow: hidden;
+}
+
+.slider-line {
+  left: 0;
+  display: flex;
+  transition: 0.2s;
+  position: relative;
+}
+
+.slider-img {
+  width: 600px;
+  height: 600px;
+}
+
+.div-info {
+  display: flex;
+  width: 980px;
+  height: 464px;
+  flex-wrap: wrap;
+  align-content: space-between;
+  align-items: center;
+  justify-content: center;
+}
+
+.name-s {
+  font-size: 40px;
+  width: 800px;
+  height: 200px;
+}
+
+.razmer {
+  width: 800px;
+  height: 89px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.r-a {
+  font-size: 30px;
+  color: #a0a0a0;
+  width: 800px;
+}
+
+.razmer p {
+  margin: 0;
+  font-size: 24px;
+  color: #a0a0a0;
+}
+
+.cena {
+  width: 800px;
+  font-size: 40px;
+}
+
+.div-purchase {
+  width: 800px;
+  height: 80px;
+  background-color: black;
+}
+
+.a-purchase {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  height: 80px;
+  color: #ffffff;
+  font-size: 36px;
+  font-family: "Press Start 2P";
+}
+
+.i-body {
+  width: auto;
+  height: 980px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.privet {
+  width: 800px;
+  height: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.name-l {
+  width: 800px;
+  font-size: 36px;
+  text-align: center;
+}
+
+.dobro {
+  width: 800px;
+  font-size: 36px;
+  text-align: center;
+}
+
+@media screen and (max-width: 981px) {
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Press Start 2P";
+    height: 100%;
+  }
+
+  .header-menu {
+    width: 980px;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .div-menu {
+    width: 800px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .div-menu a {
+    color: black;
+  }
+
+  .logo {
+    font-size: 36px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  li {
+    list-style: none;
+    text-align: right;
+  }
+
+  .news {
+    width: 980px;
+    height: 99px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    border-top: 1px solid #a0a0a0;
+  }
+
+  .div-news {
+    width: 390px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .div-news a {
+    color: #a0a0a0;
+    font-size: 30px;
+  }
+
+  .div-models {
+    width: 980px;
+    height: 529px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    border-top: 1px solid #a0a0a0;
+  }
+
+  .models {
+    width: 790px;
+    height: 460px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .cont {
+    width: 980px;
+    height: 859px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #ffffff;
+    border-top: 1px solid #a0a0a0;
+  }
+
+  .c-a {
+    width: 800px;
+    height: 30px;
+    font-size: 30px;
+    color: #a0a0a0;
+    text-align: center;
+  }
+
+  .brands {
+    width: 800px;
+    height: 524px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .div-b {
+    width: 800px;
+    height: 32px;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .div-b a {
+    color: black;
+  }
+
+  .fotter {
+    width: 980px;
+    height: 259px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #ffffff;
+    border-top: 1px solid #a0a0a0;
+  }
+
+  .fotter a {
+    color: #a0a0a0;
+    font-size: 30px;
+  }
+
+  .seti {
+    width: 240px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .i-body {
+    width: auto;
+    height: 1800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .privet {
+    width: 800px;
+    height: 1600px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
+
+  .name-l {
+    width: 800px;
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .dobro {
+    width: 800px;
+    font-size: 36px;
+    text-align: center;
+  }
+}
