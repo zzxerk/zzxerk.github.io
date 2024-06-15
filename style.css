@@ -1,0 +1,14 @@
+/* :root {
+    --tg-theme-bg-color;
+    --tg-theme-text-color;
+    --tg-theme-link-color;
+    --tg-theme-button-color;
+    --tg-theme-button-text-color;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--tg-theme-text-color);
+    background: var(--tg-theme-bg-color);
+}
