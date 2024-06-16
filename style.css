@@ -102,5 +102,6 @@ body {
 }
 
 .btn:active {
-    transform: scale(98%);
+    background-color: #42E800;
+    /* transform: scale(98%); */
 }
