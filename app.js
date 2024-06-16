@@ -17,11 +17,11 @@ let btn = document.querySelector('.btn');
 const loadCount = () => {
     c.toLocaleString('ru')
     c = (window.localStorage.getItem('count'))? window.localStorage.getItem('count'): 0;
-    count.textContent = c.toLocaleString('en');
+    count.textContent = c;
 }
 btn.addEventListener('click', function () {
     c++;
-    count.textContent = c.toLocaleString('en');
+    count.textContent = c;
     saveCount()
 })
 
