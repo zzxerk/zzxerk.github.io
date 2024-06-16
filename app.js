@@ -12,8 +12,8 @@ let count = document.querySelector('.count');
 let btn = document.querySelector('.btn');
 
 const loadCount = () => {
-    c = window.localStorage.getItem('count')
-    count.textContent = c
+    c = (window.localStorage.getItem('count'))? window.localStorage.getItem('count'): 0;
+    count.textContent = c;
 }
 btn.addEventListener('click', function () {
     c++;

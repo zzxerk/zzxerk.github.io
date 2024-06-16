@@ -66,10 +66,7 @@ body {
 
 .btn {
     background-color: yellowgreen;
-    border: none;
     display: block;
-    width: 10px;
-    height: 10px;
     padding: 80px;
     border-radius: 50%;
     outline: none;
