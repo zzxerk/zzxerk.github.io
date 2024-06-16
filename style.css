@@ -83,7 +83,7 @@ body {
     outline: none;
     border: none;
     /* border: 12px solid #1958df; */
-    transition: ease-in-out 100ms;
+    transition: ease-in-out 80ms;
 }
 
 .btn:active {
