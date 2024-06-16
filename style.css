@@ -51,7 +51,7 @@ body {
 }
 
 .count__inner {
-    margin-top: 40px;
+    margin-top: 120px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -70,8 +70,8 @@ body {
     display: block;
     width: 10px;
     height: 10px;
-    padding: 60px;
+    padding: 80px;
     border-radius: 50%;
     outline: none;
-    border: 8px solid #3992455b;
+    border: 12px solid #39924531;
 }
