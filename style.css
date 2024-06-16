@@ -9,7 +9,8 @@
 * {
     -webkit-tap-highlight-color: transparent;
     margin: 0;
-    padding: 0
+    padding: 0;
+    box-sizing: border-box;
   }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
@@ -17,75 +18,88 @@
 body {
     margin: 0;
     padding: 0;
-    color: var(--tg-theme-text-color);
-    background: var(--tg-theme-bg-color);
+    background: #0A0A0A;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .container {
-    max-width: 370px;
+    max-width: 354px;
     margin: 0 auto;
-    padding: 0 10px;
+    padding: 0 18px;
+}
+
+.header {
+    padding: 18px 0 18px 0;
+    border-bottom: 1px solid #252525;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 18px;
+    color: #42E800;
+    font-weight: 800;
 }
 
 .user__out {
     display: flex;
-    flex-direction: column;
-    gap: 5px;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .user__name {
     text-align: center;
-    color: #225DDB;
+    color: #eee;
     font-size: 16px;
     font-weight: 600;
 }
 
-.user__id {
-    text-align: center;
-    color: #225DDB;
-    font-size: 16px;
-    font-weight: 600;
+.counter {
+    padding-top: 34px;
 }
 
-.user__photo {
-    max-width: 200px;
-    max-height: 200px;
-    border-radius: 50%;
-}
-
-.count__inner {
-    margin-top: 100px;
+.counter__inner {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 34px;
 }
 
-.coin__name {
-    font-size: 22px;
-    font-weight: 800;
-    color: #225DDB;
+.counter__box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 186px 20px;
+    background-image: url(counerbg.png);
+    border: 1px solid #252525;
+    border-radius: 20px;
 }
 
 .count {
     font-size: 48px;
     font-weight: 800;
-    color: #225DDB;
+    color: #42E800;
+    width: 312px;
+    text-align: center;
 }
 
 .btn {
-    background-color: inherit;
-    display: block;
-    border-radius: 50%;
+    width: 50px;
+    border: 1px solid #252525;
     outline: none;
-    border: none;
-    /* border: 12px solid #1958df; */
-    transition: ease-in-out 80ms;
+    padding: 21px 176px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in-out 100ms;
 }
 
 .btn:active {
-    transform: scale(90%);
+    transform: scale(98%);
 }
