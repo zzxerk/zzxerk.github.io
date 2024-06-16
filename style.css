@@ -89,6 +89,7 @@ body {
 .btn {
     width: 50px;
     border: 1px solid #252525;
+    color: #0A0A0A;
     outline: none;
     padding: 21px 176px;
     border-radius: 20px;
