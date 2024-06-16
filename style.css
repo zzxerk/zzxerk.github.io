@@ -38,22 +38,9 @@ body {
 
 .user__name {
     text-align: center;
-    color: #225DDB;
+    color: #222;
     font-size: 16px;
     font-weight: 600;
-}
-
-.user__id {
-    text-align: center;
-    color: #225DDB;
-    font-size: 16px;
-    font-weight: 600;
-}
-
-.user__photo {
-    max-width: 200px;
-    max-height: 200px;
-    border-radius: 50%;
 }
 
 .count__inner {
@@ -109,4 +96,10 @@ body {
 
 .btn:active {
     transform: scale(90%);
+}
+
+.energy__box {
+    display: flex;
+    align-items: center;
+    gap: 4px;
 }

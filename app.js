@@ -3,6 +3,9 @@ let tg = window.Telegram.WebApp;
 tg.expand();
 
 
+let energyLimit = 10;
+p = energyLimit;
+
 let c = 0;
 const saveCount = () => {
     window.localStorage.setItem('count', c)
@@ -16,9 +19,17 @@ const loadCount = () => {
     count.textContent = c;
 }
 btn.addEventListener('click', function () {
-    c++;
-    count.textContent = c;
-    saveCount()
+    if (energyLimit > 0) {
+        energyLimit--;
+        let energyCount = document.querySelector('.energy__count');
+        energyCount.textContent = energyLimit+"/"+p;
+        c++;
+        count.textContent = c;
+        saveCount()
+    }
+    else {
+
+    }
 })
 
 loadCount()
