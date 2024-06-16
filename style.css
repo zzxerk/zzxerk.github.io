@@ -8,6 +8,8 @@
 
 * {
     -webkit-tap-highlight-color: transparent;
+    margin: 0;
+    padding: 0
   }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
@@ -36,14 +38,14 @@ body {
 
 .user__name {
     text-align: center;
-    color: yellowgreen;
+    color: #225DDB;
     font-size: 16px;
     font-weight: 600;
 }
 
 .user__id {
     text-align: center;
-    color: yellowgreen;
+    color: #225DDB;
     font-size: 16px;
     font-weight: 600;
 }
@@ -58,21 +60,32 @@ body {
     margin-top: 120px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
     align-items: center;
+    gap: 20px;
+}
+
+.coin__name {
+    font-size: 22px;
+    font-weight: 800;
+    color: #225DDB;
 }
 
 .count {
-    font-size: 28px;
+    font-size: 48px;
     font-weight: 800;
-    color: yellowgreen;
+    color: #225DDB;
 }
 
 .btn {
-    background-color: yellowgreen;
+    background-color: inherit;
     display: block;
-    padding: 120px;
     border-radius: 50%;
     outline: none;
-    border: 12px solid #39924531;
+    border: none;
+    /* border: 12px solid #1958df; */
+    transition: ease-in-out 400ms;
+}
+
+.btn:active {
+    transform: scale(5%);
 }
