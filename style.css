@@ -70,6 +70,19 @@ body {
     color: #225DDB;
 }
 
+.counter {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.coin__pic {
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .count {
     font-size: 48px;
     font-weight: 800;
@@ -77,13 +90,21 @@ body {
 }
 
 .btn {
-    background-color: inherit;
+    background-color: initial;
     display: block;
     border-radius: 50%;
     outline: none;
     border: none;
+    /* border-top: 8px solid #225DDB; */
+    border-bottom: 12px solid #225DDB;
+    border-right: 12px solid #225DDB;
     /* border: 12px solid #1958df; */
-    transition: ease-in-out 80ms;
+    transition: ease-in-out 100ms;
+}
+
+.btn__img {
+    width: 320px;
+    border-radius: 50%;
 }
 
 .btn:active {
