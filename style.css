@@ -122,5 +122,5 @@ body {
     opacity: 1;
     border: 1px solid #225DDB;
     background-color: #fff;
-    color: var(--tg-theme-text-color);
+    color: #222;
 }
