@@ -4,12 +4,16 @@ tg.expand();
 
 
 let energyLimit = 10;
-p = energyLimit;
+let p = energyLimit;
+
+
 
 let c = 0;
 const saveCount = () => {
     window.localStorage.setItem('count', c)
     window.localStorage.setItem('energy', energyLimit)
+    window.localStorage.setItem('maxEnergy', p)
+    window.localStorage.setItem('reloadTime', energyTime)
 }
 
 let count = document.querySelector('.count');
@@ -21,18 +25,28 @@ const loadCount = () => {
     count.textContent = c;
     energyLimit = (window.localStorage.getItem('energy'))?window.localStorage.getItem('energy'): p;
     energyCount.textContent = energyLimit+"/"+p;
+    energyTime = window.localStorage.getItem('reloadTime');
+    window.localStorage.getItem('maxEnergy')
 }
+
 btn.addEventListener('click', function () {
+
     if (energyLimit > 0) {
         energyLimit--;
+        let energyTime = (p-energyLimit)*1000;
         energyCount.textContent = energyLimit+"/"+p;
         c++;
         count.textContent = c;
-        saveCount()
+        let energyInterval = setInterval(function energy() {
+            if (energyLimit <= p) {
+                energyLimit++;
+                energyCount.textContent = energyLimit+"/"+p;
+                clearInterval(energyInterval);
+            // console.log((p-energyLimit-1)*2000);
+            }
+        }, energyTime);
     }
-    else {
-
-    }
+    saveCount()
 })
 
 loadCount()
