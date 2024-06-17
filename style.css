@@ -34,6 +34,7 @@ body {
     gap: 5px;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 10px;
 }
 
 .user__name {
@@ -41,11 +42,10 @@ body {
     color: var(--tg-theme-text-color);
     font-size: 16px;
     font-weight: 600;
-    margin-top: 10px;
 }
 
 .count__inner {
-    margin-top: 40px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     gap: 20px;
