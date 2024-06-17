@@ -17,8 +17,20 @@ const saveCount = () => {
     window.localStorage.setItem('maxEnergy', p)
 }
 
+let btn1 = document.querySelector('.btn__1');
+let btn2 = document.querySelector('.btn__2');
+let btn3 = document.querySelector('.btn__3');
+let btn4 = document.querySelector('.btn__4');
+let btn5 = document.querySelector('.btn__5');
+let btn6 = document.querySelector('.btn__6');
+let btn7 = document.querySelector('.btn__7');
+let btn8 = document.querySelector('.btn__8');
+let btn9 = document.querySelector('.btn__9');
+
+
+
+
 let count = document.querySelector('.count');
-let btn = document.querySelector('.btn');
 let energyCount = document.querySelector('.energy__count');
 let freeEnergy = document.querySelector('.free__energy');
 
@@ -39,7 +51,101 @@ function a () {
 
 a()
 
-btn.addEventListener('click', function () {
+btn1.addEventListener('click', function () {
+    if (energyLimit > 0) {
+        energyLimit--;
+        energyCount.textContent = energyLimit+"/"+p;
+        c++;
+        count.textContent = c;
+    }
+    a();
+    saveCount();
+})
+btn2.addEventListener('click', function () {
+    // let nowTime = new Date().getTime();
+    // let nextTime = nowTime+60000;
+    if (energyLimit > 0) {
+        energyLimit--;
+        energyCount.textContent = energyLimit+"/"+p;
+        c++;
+        count.textContent = c;
+    }
+    a();
+    saveCount();
+})
+btn3.addEventListener('click', function () {
+    // let nowTime = new Date().getTime();
+    // let nextTime = nowTime+60000;
+    if (energyLimit > 0) {
+        energyLimit--;
+        energyCount.textContent = energyLimit+"/"+p;
+        c++;
+        count.textContent = c;
+    }
+    a();
+    saveCount();
+})
+btn4.addEventListener('click', function () {
+    // let nowTime = new Date().getTime();
+    // let nextTime = nowTime+60000;
+    if (energyLimit > 0) {
+        energyLimit--;
+        energyCount.textContent = energyLimit+"/"+p;
+        c++;
+        count.textContent = c;
+    }
+    a();
+    saveCount();
+})
+btn5.addEventListener('click', function () {
+    // let nowTime = new Date().getTime();
+    // let nextTime = nowTime+60000;
+    if (energyLimit > 0) {
+        energyLimit--;
+        energyCount.textContent = energyLimit+"/"+p;
+        c++;
+        count.textContent = c;
+    }
+    a();
+    saveCount();
+})
+btn6.addEventListener('click', function () {
+    // let nowTime = new Date().getTime();
+    // let nextTime = nowTime+60000;
+    if (energyLimit > 0) {
+        energyLimit--;
+        energyCount.textContent = energyLimit+"/"+p;
+        c++;
+        count.textContent = c;
+    }
+    a();
+    saveCount();
+})
+btn7.addEventListener('click', function () {
+    // let nowTime = new Date().getTime();
+    // let nextTime = nowTime+60000;
+    if (energyLimit > 0) {
+        energyLimit--;
+        energyCount.textContent = energyLimit+"/"+p;
+        c++;
+        count.textContent = c;
+    }
+    a();
+    saveCount();
+})
+btn8.addEventListener('click', function () {
+    // let nowTime = new Date().getTime();
+    // let nextTime = nowTime+60000;
+    if (energyLimit > 0) {
+        energyLimit--;
+        energyCount.textContent = energyLimit+"/"+p;
+        c++;
+        count.textContent = c;
+    }
+    a();
+    saveCount();
+})
+btn9.addEventListener('click', function () {
     // let nowTime = new Date().getTime();
     // let nextTime = nowTime+60000;
     if (energyLimit > 0) {
@@ -52,7 +158,6 @@ btn.addEventListener('click', function () {
     saveCount();
 })
 
-
 freeEnergy.addEventListener('click', function () {
     if (energyLimit==0) {
         energyLimit=100;
@@ -64,13 +169,12 @@ freeEnergy.addEventListener('click', function () {
 
 loadCount()
 
-// let out = document.querySelector(".user__out");
-// out.insertAdjacentHTML("beforeend", 
-//     `
-//     <p class="user__name">@${tg.initDataUnsafe.user.username}</p>
-//     `
-// );
-
+let out = document.querySelector(".user__out");
+out.insertAdjacentHTML("beforeend", 
+    `
+    <p class="user__name">@${tg.initDataUnsafe.user.username}</p>
+    `
+);
 
 // let energyTime = (p-energyLimit)*200;
         // let energyInterval = setInterval(function () {
