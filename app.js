@@ -33,7 +33,6 @@ btn.addEventListener('click', function () {
     if (energyLimit > 0) {
         energyLimit--;
         let energyTime = (p-energyLimit)*1000;
-        let xyu = 1000;
         energyCount.textContent = energyLimit+"/"+p;
         c++;
         count.textContent = c;
