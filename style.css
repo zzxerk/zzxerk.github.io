@@ -41,10 +41,11 @@ body {
     color: var(--tg-theme-text-color);
     font-size: 16px;
     font-weight: 600;
+    margin-top: 10px;
 }
 
 .count__inner {
-    margin-top: 80px;
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
     gap: 20px;
