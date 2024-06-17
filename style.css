@@ -112,7 +112,7 @@ body {
 .free__energy {
     opacity: 0.2;
     background-color: #222;
-    color: #fff;
+    color: var(--tg-theme-text-color);
     padding: 10px 20px;
     border-radius: 10px;
     /* text-align: center; */
