@@ -46,6 +46,7 @@ btn.addEventListener('click', function () {
             }
         }, energyTime);
     }
+    window.localStorage.clear('energy')
     saveCount()
 })
 
