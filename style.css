@@ -47,7 +47,6 @@ body {
     margin-top: 80px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 20px;
 }
 
@@ -60,6 +59,7 @@ body {
 .counter {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 20px;
 }
 
@@ -77,8 +77,10 @@ body {
 }
 
 .btn {
-    display: block;
     border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     outline: none;
     border: none;
     /* border-top: 8px solid #225DDB; */
@@ -92,7 +94,6 @@ body {
 
 
 .btn__img {
-    width: 320px;
     border-radius: 50%;
     background-color: #fff;
 }
@@ -108,14 +109,17 @@ body {
 }
 
 .free__energy {
-    opacity: 0.4;
+    opacity: 0.2;
     background-color: #222;
     color: #fff;
-    padding: 10px 40px;
+    padding: 10px 20px;
     border-radius: 10px;
+    /* text-align: center; */
 }
 
 .free__energy.active {
     opacity: 1;
-    background-color: #225DDB;
+    border: 1px solid #225DDB;
+    background-color: #fff;
+    color: var(--tg-theme-text-color);
 }
