@@ -17,16 +17,7 @@ const saveCount = () => {
     window.localStorage.setItem('maxEnergy', p)
 }
 
-let btn1 = document.querySelector('.btn__1');
-let btn2 = document.querySelector('.btn__2');
-let btn3 = document.querySelector('.btn__3');
-let btn4 = document.querySelector('.btn__4');
-let btn5 = document.querySelector('.btn__5');
-let btn6 = document.querySelector('.btn__6');
-let btn7 = document.querySelector('.btn__7');
-let btn8 = document.querySelector('.btn__8');
-let btn9 = document.querySelector('.btn__9');
-
+let btn = document.querySelector('.btn');
 
 
 
@@ -51,17 +42,7 @@ function a () {
 
 a()
 
-btn1.addEventListener('click', function () {
-    if (energyLimit > 0) {
-        energyLimit--;
-        energyCount.textContent = energyLimit+"/"+p;
-        c++;
-        count.textContent = c;
-    }
-    a();
-    saveCount();
-})
-btn2.addEventListener('click', function () {
+btn.addEventListener('click', function () {
     // let nowTime = new Date().getTime();
     // let nextTime = nowTime+60000;
     if (energyLimit > 0) {
@@ -73,90 +54,7 @@ btn2.addEventListener('click', function () {
     a();
     saveCount();
 })
-btn3.addEventListener('click', function () {
-    // let nowTime = new Date().getTime();
-    // let nextTime = nowTime+60000;
-    if (energyLimit > 0) {
-        energyLimit--;
-        energyCount.textContent = energyLimit+"/"+p;
-        c++;
-        count.textContent = c;
-    }
-    a();
-    saveCount();
-})
-btn4.addEventListener('click', function () {
-    // let nowTime = new Date().getTime();
-    // let nextTime = nowTime+60000;
-    if (energyLimit > 0) {
-        energyLimit--;
-        energyCount.textContent = energyLimit+"/"+p;
-        c++;
-        count.textContent = c;
-    }
-    a();
-    saveCount();
-})
-btn5.addEventListener('click', function () {
-    // let nowTime = new Date().getTime();
-    // let nextTime = nowTime+60000;
-    if (energyLimit > 0) {
-        energyLimit--;
-        energyCount.textContent = energyLimit+"/"+p;
-        c++;
-        count.textContent = c;
-    }
-    a();
-    saveCount();
-})
-btn6.addEventListener('click', function () {
-    // let nowTime = new Date().getTime();
-    // let nextTime = nowTime+60000;
-    if (energyLimit > 0) {
-        energyLimit--;
-        energyCount.textContent = energyLimit+"/"+p;
-        c++;
-        count.textContent = c;
-    }
-    a();
-    saveCount();
-})
-btn7.addEventListener('click', function () {
-    // let nowTime = new Date().getTime();
-    // let nextTime = nowTime+60000;
-    if (energyLimit > 0) {
-        energyLimit--;
-        energyCount.textContent = energyLimit+"/"+p;
-        c++;
-        count.textContent = c;
-    }
-    a();
-    saveCount();
-})
-btn8.addEventListener('click', function () {
-    // let nowTime = new Date().getTime();
-    // let nextTime = nowTime+60000;
-    if (energyLimit > 0) {
-        energyLimit--;
-        energyCount.textContent = energyLimit+"/"+p;
-        c++;
-        count.textContent = c;
-    }
-    a();
-    saveCount();
-})
-btn9.addEventListener('click', function () {
-    // let nowTime = new Date().getTime();
-    // let nextTime = nowTime+60000;
-    if (energyLimit > 0) {
-        energyLimit--;
-        energyCount.textContent = energyLimit+"/"+p;
-        c++;
-        count.textContent = c;
-    }
-    a();
-    saveCount();
-})
+
 
 freeEnergy.addEventListener('click', function () {
     if (energyLimit==0) {
